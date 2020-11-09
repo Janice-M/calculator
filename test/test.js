@@ -1,5 +1,4 @@
 
-const calculator = require('/home/moringa/Documents/node/machai/src/calc.js');
 const expect = require('chai').expect;
 const chai= require (chai);
 
