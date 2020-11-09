@@ -14,4 +14,15 @@ describe('Calculator', () => {
 			expect(calculator.add(-31, 32)).to.equal(1)
 			expect(calculator.add(10000, 89999)).to.equal(99999)
 		})
+    })
+    describe('Subtraction', () => {
+		it('1 - 1 should be equals to 0', () => {
+			expect(calculator.subtract(1, 1)).to.equal(0)
+		})
+		it('should subtract two numbers', () => {
+			expect(calculator.subtract(6, 2)).to.equal(4)
+			expect(calculator.subtract(50, 39)).to.equal(11)
+			expect(calculator.subtract(-31, 32)).to.equal(-63)
+			expect(calculator.subtract(10000, 89999)).to.equal(-79999)
+		})
 	})
