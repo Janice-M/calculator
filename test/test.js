@@ -1,5 +1,5 @@
 
-const calculator = require('/src/calc.js');
+const calculator = require('. src/calc.js');
 const expect = require('chai').expect;
 const chai= require (chai);
 
