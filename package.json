@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Janice-M/calculator/issues"
   },
-  "homepage": "https://github.com/Janice-M/calculator#readme"
+  "homepage": "https://github.com/Janice-M/calculator#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
 }
