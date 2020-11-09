@@ -37,4 +37,21 @@ describe('Calculator', () => {
 			expect(calculator.multiply(-31, 32)).to.equal(-992)
 			expect(calculator.multiply(-5, -2)).to.equal(10)
 		})
+    })
+    
+    describe('Division', () => {
+		it('1 / 1 should be equals to 1', () => {
+			expect(calculator.divide(1, 1)).to.equal(1)
+		})
+		it('should divide two numbers', () => {
+			expect(calculator.divide(4, 2)).to.equal(2)
+			expect(calculator.divide(50, 5)).to.equal(10)
+			expect(calculator.divide(-15, 2)).to.equal(-7.5)
+		})
+		it('should return NaN if the denominator is zero', () => {
+			expect(calculator.divide(4, 0)).to.equal(undefined)
+			expect(calculator.divide(50, 0)).to.equal(undefined)
+			expect(calculator.divide(-15, 0)).to.equal(undefined)
+		})
 	})
+})
