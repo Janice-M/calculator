@@ -25,4 +25,16 @@ describe('Calculator', () => {
 			expect(calculator.subtract(-31, 32)).to.equal(-63)
 			expect(calculator.subtract(10000, 89999)).to.equal(-79999)
 		})
+    })
+    
+    describe('Multiplication', () => {
+		it('1 * 1 should be equals to 1', () => {
+			expect(calculator.multiply(1, 1)).to.equal(1)
+		})
+		it('should multiply two numbers', () => {
+			expect(calculator.multiply(3, 2)).to.equal(6)
+			expect(calculator.multiply(50, 39)).to.equal(1950)
+			expect(calculator.multiply(-31, 32)).to.equal(-992)
+			expect(calculator.multiply(-5, -2)).to.equal(10)
+		})
 	})
