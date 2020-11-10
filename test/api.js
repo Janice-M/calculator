@@ -45,7 +45,7 @@ describe ('API', ()=> {
                 expect(err).to.be.null
                 expect(res).to.have.status(200)
 
-                
+                expect(res.body).to.be.a('object')
             })
             })
     })
