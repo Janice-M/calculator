@@ -57,6 +57,14 @@ describe ('API', ()=> {
                 expect(res.body.odds).to.be.an('array').that.does.not.include(2)
                 expect(res.body.odds).to.deep.include(5)
                 expect(res.body.odds).to.have.ordered.members([1, 3, 5, 7, 9]).but.not.have.ordered.members([3, 1])
+
+                expect(res.body).to.have.property('person')
+                expect(res.body.person).to.have.property('id')
+                expect(res.body.person).to.have.property('name')
+                expect(res.body.person.name).to.be.string
+                expect(res.body.person.name).to.deep.equal('Sam Barros')
+
+                done()
             })
             })
     })
