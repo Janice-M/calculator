@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/Janice-M/calculator.git"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,6 +19,8 @@
   "homepage": "https://github.com/Janice-M/calculator#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
     "mocha": "^8.2.1"
   }
 }
