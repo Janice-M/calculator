@@ -50,7 +50,7 @@ describe ('API', ()=> {
                 expect(res.body).to.have.property('message')
 
                 expect(res.body).to. have.property('value')
-                expect(re)
+                expect(res.body.value).to.be.a('number')
             })
             })
     })
