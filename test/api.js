@@ -13,6 +13,11 @@ const createFakeServer =()=> {
     const result = {
         message : 'Hello Rafiki ',
         value : 3.5,
+        odds: [1,3,5,7,9],
+        person :{
+            id : 2013146,
+            name: 'Jan Banan'
+        }
 
     }
 }
