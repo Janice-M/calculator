@@ -51,6 +51,9 @@ describe ('API', ()=> {
 
                 expect(res.body).to. have.property('value')
                 expect(res.body.value).to.be.a('number')
+
+                expect(res.body).to.have.property('odds')
+                expect(res.body.odds).to.be.a('array').with.lengthOf(5)
             })
             })
     })
