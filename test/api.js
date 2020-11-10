@@ -38,6 +38,15 @@ describe ('API', ()=> {
         beforeEach(()=>{
             fakeServer= createFakeServer()
         })
+            it ('should return the object', (done)=>{
+            chai.request(fakeServer)
+            .get("/")
+            .end((err, res)=>{
+                expect(err).to.be.null
+                expect(res).to.have.status(200)
 
+                
+            })
+            })
     })
 })
