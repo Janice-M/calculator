@@ -33,7 +33,7 @@ const createFakeServer =()=> {
 
 describe ('API', ()=> {
     describe('GET/', ()=> {
-        
+        let fakeServer
 
     })
 })
