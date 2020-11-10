@@ -20,4 +20,7 @@ const createFakeServer =()=> {
         }
 
     }
+    app.get('/', (req, res)=>{
+
+    })
 }
