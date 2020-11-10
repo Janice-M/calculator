@@ -10,5 +10,9 @@ const createFakeServer =()=> {
     const app = express()
     const apiPort = 30001
 
-    const re
+    const result = {
+        message : 'Hello Rafiki ',
+        value : 3.5,
+
+    }
 }
