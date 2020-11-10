@@ -21,6 +21,10 @@ const createFakeServer =()=> {
 
     }
     app.get('/', (req, res)=>{
+        res.send(result)
 
     })
+    app.listen(apiPort)
+    
+    return app
 }
