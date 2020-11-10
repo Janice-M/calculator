@@ -62,7 +62,7 @@ describe ('API', ()=> {
                 expect(res.body.person).to.have.property('id')
                 expect(res.body.person).to.have.property('name')
                 expect(res.body.person.name).to.be.string
-                expect(res.body.person.name).to.deep.equal('Sam Barros')
+                expect(res.body.person.name).to.deep.equal('Jan Banan')
 
                 done()
             })
