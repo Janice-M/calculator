@@ -35,5 +35,9 @@ describe ('API', ()=> {
     describe('GET/', ()=> {
         let fakeServer
 
+        beforeEach(()=>{
+            fakeServer= createFakeServer()
+        })
+
     })
 })
