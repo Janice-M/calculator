@@ -28,3 +28,12 @@ const createFakeServer =()=> {
     
     return app
 }
+
+
+
+describe ('API', ()=> {
+    describe('GET/', ()=> {
+        
+
+    })
+})
